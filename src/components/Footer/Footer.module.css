@@ -1,0 +1,42 @@
+
+
+.box{
+  background:#0A0F20;
+  width: 100%;
+}
+.main{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  max-width: 1440px;
+  margin: auto;
+}
+.left{
+  display: flex;
+  flex-direction: column;
+}
+.right{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.left_title{
+  font-family: 'Roboto';
+  font-size: 14px;
+  color: white;
+}
+.middle_title{
+  font-family: 'Roboto';
+  color: rgb(149, 145, 145);
+  font-size: 12px;
+  
+}
+@media screen and (max-width:470px){
+  .main{
+    flex-direction: column;
+  }
+  .middle_title{
+    margin:30px;
+  }
+}

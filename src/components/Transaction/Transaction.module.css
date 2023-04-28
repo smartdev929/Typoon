@@ -1,0 +1,28 @@
+.box{
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  width: 46%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  opacity: 0.8;
+  cursor: pointer;
+}
+.box:hover{
+  opacity: 1;
+}
+.box_font_1{
+  font-family: 'Roboto';
+  font-weight: bolder;
+  color: white;
+}
+.box_font_2{
+  font-family: 'Roboto';
+  color: rgb(149, 145, 145);
+  font-size: 10px;
+}

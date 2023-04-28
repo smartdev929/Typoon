@@ -1,0 +1,45 @@
+.logo{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 450px;
+  height:100px;
+  background: linear-gradient(90deg, #3859bc 0%, #70468c 35%, #70468c 100%);
+  
+  padding-right: 10px;
+  overflow: hidden;
+  border-radius: 5px;
+}
+.logo_img{
+}
+span{
+  color:white;
+  padding: 5px 0px;
+}
+
+.flex{
+  display: flex;
+  border: 1px solid ;
+  align-items: center;
+  margin:10px 0px;
+  padding: 10px 15px;
+  border: 1px solid rgb(88, 94, 117);
+  border-radius: 10px;
+  cursor: pointer;
+  width: 500px;
+}
+.flex:hover{
+  background: rgb(88, 94, 117);
+}
+@media screen and (max-width:650px){
+  .logo{
+    width:280px;
+    justify-content: center;
+  }
+  .flex{
+    width: 280px;
+  }
+  .logo_img{
+    display: none;
+  }
+}

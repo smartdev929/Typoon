@@ -1,0 +1,129 @@
+.box{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+
+}
+.left{
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+.right{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 70%;
+
+}
+.font_size_1{
+  font-family: 'Roboto';
+  font-size: 1.875rem;
+  font-weight: 700;
+  color: white;
+  text-align: left;
+}
+.font_size_1_1{
+  font-family: 'Roboto';
+  font-size: 25px;
+  font-weight: 700;
+  color: white;
+  text-align: left;
+}
+.font_size_2{
+  color: rgb(199, 199, 199);
+  text-align: left;
+  transition: all 0.2s ease 0s;
+  font-weight: bold;
+}
+.font_size_3{
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: 700;
+  color: rgb(242, 237, 237);
+  text-align: left;
+}
+.font_size_4{
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 700;
+  color: rgb(242, 237, 237);
+  text-align: center;
+}
+
+.img{
+  position: relative;
+  padding-right: 40px;
+  
+}
+.img_1{
+  border: 1px solid rgb(203, 200, 200,0.5);
+  border-radius: 50%;
+  position: absolute;
+  padding:4px;
+  /* width: 34px; */
+  top:-30px;
+  background: rgb(8, 14, 33);
+}
+.img_2{
+  border: 1px solid rgb(203, 200, 200,0.5);
+  border-radius: 50%;
+  position: absolute;
+  padding:4px;
+  left: 18px;
+  top: -10px;
+  background: rgb(8, 14, 33);
+}
+.font5{
+  margin-top: 20px;
+  font-family: 'Roboto';
+  color: rgb(228, 225, 225);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 2rem;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.font6{
+  font-family: 'Roboto';
+  color: rgb(240, 238, 238);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 2rem;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.rect{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 45%;
+}
+@media screen and (max-width:1114px){
+  .box{
+    flex-direction: column;
+  }
+  .left{
+    margin-bottom: 30px;
+    width: 100%;
+    justify-content: center;
+  }
+  .right{
+    width: 80%;
+  }
+}
+@media screen and (max-width:995px){
+  .right{
+    flex-direction: column;
+  }
+  .rect{
+    margin-bottom: 20px;
+    width: 60%;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .font_size_4{
+    padding-bottom: 25px;
+  }
+}

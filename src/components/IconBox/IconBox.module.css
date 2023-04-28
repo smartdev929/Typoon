@@ -1,0 +1,18 @@
+.icon_box{
+  display:flex;
+  align-items:center;
+  margin-top:auto;
+  margin-bottom:auto;
+  width:30%;
+  min-width: 30%;
+}
+@media screen and (max-width:470px){
+  .icon_box{
+    padding-bottom: 20px;
+  }
+}
+@media screen and (max-width:440px){
+  .icon_box{
+    width: auto;
+  }
+}

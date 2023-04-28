@@ -1,0 +1,119 @@
+.header_body{
+  width: 100%;
+  background-color: #11162d;
+}
+.header_main{
+  width: 95%;
+  max-width: 1440px;
+  margin:auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.logo_title{
+  padding-left: 10px;
+  padding-right: 10px;
+  font-family: 'Roboto';
+  color: white;
+  font-weight: 700;
+  font-size: 18px;
+}
+.left{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.bsc_btn{
+  display: flex;
+  /* vertical-align: middle; */
+  justify-content: space-between;
+  background: #0a0f20;
+  padding: 7px 10px;
+  border-radius: 8px;
+  width: 90px;
+  cursor: pointer;
+}
+.bsc_btn_font{
+  color: white;
+  font-size: 16px;
+  font-family: 'Roboto';
+}
+.hambuger{
+  display: none;
+}
+.right{
+  
+  /* width: 52%; */
+}
+.menulist{
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  cursor: pointer;
+}
+.menulist .link{
+  
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: white;
+  font-family: "Roboto";
+  text-decoration: none;
+  padding: 0px 10px;
+}
+.menulist a:hover{
+  text-decoration: underline;
+}
+.buy_btn{
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  background: #0a0f20;
+  padding: 7px 0px;
+  width: 180px;
+  justify-content: center;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.buy_btn_title{
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-family: "Roboto";
+  text-decoration: none;
+  color: #F3BA2E;
+  padding-left: 20px;
+}
+.hamguger_menu_list{
+  background: #0a0f20;
+  padding: 30px;
+  transition-duration: 2s;
+}
+.hamguger_menu_list a{
+  display: block;
+  font-size: 14px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  color: white;
+  font-family: "Roboto";
+  text-decoration: none;
+  padding: 10px;
+  
+}
+@media screen and (max-width:970px){
+  .right{display: none;}
+  .hambuger{
+    display: block;
+  }
+  .buy_btn{
+    margin-bottom: 10px;
+    padding: 7px 0px;
+    margin-left: -15px;
+  }
+}

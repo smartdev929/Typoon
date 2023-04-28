@@ -1,0 +1,38 @@
+
+.container{
+  max-width: 1280px;
+  margin:0 auto;
+  width: 100%;
+  padding: 15px;
+}
+.font_size_1{
+  font-family: 'Roboto';
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+  font-weight: 700;
+  color: white;
+  margin-bottom: 25px;
+  text-align: left;
+  margin-top: 30px;
+}
+.font_size_2{
+  color: rgb(199, 199, 199);
+  text-align: left;
+  padding: 15px 0px;
+  transition: all 0.2s ease 0s;
+  font-weight: bold;
+}
+.font_size_2 a{
+  color: white;
+  text-align: left;
+  padding: 15px 0px;
+  transition: all 0.2s ease 0s;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.rain{
+  width: 100%;
+
+  margin: 7rem auto;
+}

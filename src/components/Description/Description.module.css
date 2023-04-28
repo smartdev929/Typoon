@@ -1,0 +1,17 @@
+.help{
+  max-width:1280px;
+  margin-top: 2rem;
+  margin: auto;
+}
+.help_content{
+  background: rgb(10, 15, 32);
+  color: white;
+  text-align: center;
+  padding: 15px 20px;
+  transition: all 0.2s ease 0s;
+  font-weight: bold;
+  margin-bottom: 2rem
+}
+.help_content:hover{
+  background: rgb(1, 4, 16);
+}
